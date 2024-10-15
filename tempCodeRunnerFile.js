@@ -1,1 +1,1 @@
-return student
+console.log(`el ingreso anual es de: ${ingreso}`);
