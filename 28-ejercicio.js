@@ -25,11 +25,12 @@
 import { Countri } from "../countries/countries_data_old.js";
 
 function mostPopulatedCountries(countri,cant){
-    console.log(countri)
+
     let mostCountries ={}
     countri.forEach(countris => {
         mostCountries[countris.name]=countris.population
     });
+    console.log(mostCountries)
     const mostPopulated = Object.entries(mostCountries).map(([name,cantidad])=>({
         Pais: name,cantidad
     })).sort((a,b)=>b.cantidad - a.cantidad)
