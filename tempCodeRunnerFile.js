@@ -1,1 +1,2 @@
-console.log(`el ingreso anual es de: ${ingreso}`);
+
+    inf2: inf2(),
