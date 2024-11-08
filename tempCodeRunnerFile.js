@@ -1,2 +1,1 @@
-
-    inf2: inf2(),
+catNames
